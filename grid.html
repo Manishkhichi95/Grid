@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display:grid;
+            grid-template-columns: auto auto auto;
+        }
+        .container{
+         background-color: rgb(228, 148, 27);
+         border:1px solid black;
+        }
+      .five{
+     grid-column:2;
+     grid-row: 2/4;
+      }
+    .eleven{
+        grid-column:1/2;
+        grid-row:1/2;
+    }
+    .one{
+       grid-column:3;
+        grid-row:4/4;  
+      
+    }
+    .seven {
+        grid-column:3;
+        grid-row:3/2;
+    }
+    .four{
+        grid-column:2;
+        grid-row:1/4;
+    }
+    .two{
+        grid-column:1;
+        grid-row:2;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div  class="container one">1</div>
+        <div  class="container two">2</div>
+        <div  class="container">3</div>
+        <div  class="container four">4</div>
+        <div  class="container five">5</div>
+        <div  class="container six">6</div>
+        <div  class="container seven">7</div>
+        <div  class="container eight">8</div>
+        <div  class="container">9</div>
+        <div  class="container ten">10</div>
+
+    <div  class="container eleven">11</div>
+
+    </div>
+</body>
+</html>
